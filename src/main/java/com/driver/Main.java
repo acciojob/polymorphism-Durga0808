@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static class Product{
-        Product(){
+       public  Product(){
         }
         public int product(int x,int y){
             return x*y;
