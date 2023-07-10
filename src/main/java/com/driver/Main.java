@@ -1,12 +1,10 @@
 package com.driver;
 
 import java.io.*;
-import java.util.*;
 
 public class Main {
-    class Product{
+    public static class Product{
         Product(){
-
         }
         public int product(int x,int y){
             return x*y;
@@ -21,9 +19,10 @@ public class Main {
             return x*y*z;
         }
     }
+    
 
-public static void main (String []args)throws IOException{
-    Product p=new Product();
+    public  static void main (String []args)throws IOException{
+    Product p= new Product();
     int x=5;
     int y=6;
     int a1=p.product(x,y);
